@@ -1,0 +1,90 @@
+body {
+  background-color: #17102a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 97vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.game-title {
+  color: #f2627b;
+  letter-spacing: 2px;
+}
+
+.dragon-logo {
+  width: 200px;
+  padding-top: 3em;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 0.8rem;
+}
+
+#goldText {
+  background-color: rgb(237, 211, 12);
+  padding: 0.3em;
+  border-radius: 50%;
+}
+
+#healthText {
+  background-color: rgb(237, 12, 12);
+  padding: 0.2em 0.5em;
+  border-radius: 7px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 1rem auto 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  color: #0a0a23;
+  padding: 0.7em;
+  display: flex;
+  justify-content: center;
+}
+
+#controls {
+  gap: 2em;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 0.8rem;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  /* font-size: 0.7rem; */
+  font-weight: 600;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #fe3232;
+  background-image: linear-gradient(#fe3232, #ffac33);
+}
